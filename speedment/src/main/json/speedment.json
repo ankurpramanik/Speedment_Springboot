@@ -1,0 +1,348 @@
+{
+  "config" : {
+    "speedmentVersion" : "Speedment:3.2.10",
+    "nameProtected" : false,
+    "expanded" : true,
+    "appId" : "b2eeb3f6-c781-46f4-9361-657708cb0fd9",
+    "companyName" : "ada",
+    "name" : "speedmentDb",
+    "packageLocation" : "src/main/java/",
+    "id" : "public",
+    "packageName" : "com.ada.speedment.zdb",
+    "dbmses" : [
+      {
+        "expanded" : true,
+        "port" : 5432,
+        "schemas" : [
+          {
+            "tables" : [
+              {
+                "expanded" : true,
+                "primaryKeyColumns" : [
+                  {
+                    "expanded" : true,
+                    "name" : "EmpID",
+                    "id" : "EmpID",
+                    "ordinalPosition" : 1,
+                    "enabled" : true
+                  }
+                ],
+                "indexes" : [
+                  {
+                    "expanded" : false,
+                    "unique" : true,
+                    "name" : "Employee_pkey",
+                    "indexColumns" : [
+                      {
+                        "orderType" : "ASC",
+                        "expanded" : true,
+                        "name" : "EmpID",
+                        "id" : "EmpID",
+                        "ordinalPosition" : 1
+                      }
+                    ],
+                    "id" : "Employee_pkey",
+                    "enabled" : true
+                  }
+                ],
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Integer",
+                    "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "EmpID",
+                    "id" : "EmpID",
+                    "ordinalPosition" : 1,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "EmpFirstName",
+                    "id" : "EmpFirstName",
+                    "ordinalPosition" : 2,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "EmpLastName",
+                    "id" : "EmpLastName",
+                    "ordinalPosition" : 3,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "EmpAddress",
+                    "id" : "EmpAddress",
+                    "ordinalPosition" : 4,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "PhoneNo",
+                    "id" : "PhoneNo",
+                    "ordinalPosition" : 5,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "Email",
+                    "id" : "Email",
+                    "ordinalPosition" : 6,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Boolean",
+                    "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "Active",
+                    "id" : "Active",
+                    "ordinalPosition" : 7,
+                    "enabled" : true
+                  }
+                ],
+                "name" : "Employee",
+                "id" : "Employee",
+                "enabled" : true
+              },
+              {
+                "expanded" : true,
+                "primaryKeyColumns" : [
+                  {
+                    "expanded" : true,
+                    "name" : "StudentID",
+                    "id" : "StudentID",
+                    "ordinalPosition" : 1,
+                    "enabled" : true
+                  }
+                ],
+                "indexes" : [
+                  {
+                    "expanded" : false,
+                    "unique" : true,
+                    "name" : "Student_pkey",
+                    "indexColumns" : [
+                      {
+                        "orderType" : "ASC",
+                        "expanded" : true,
+                        "name" : "StudentID",
+                        "id" : "StudentID",
+                        "ordinalPosition" : 1
+                      }
+                    ],
+                    "id" : "Student_pkey",
+                    "enabled" : true
+                  }
+                ],
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Long",
+                    "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "StudentID",
+                    "id" : "StudentID",
+                    "ordinalPosition" : 1,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "StudentName",
+                    "id" : "StudentName",
+                    "ordinalPosition" : 2,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "Address",
+                    "id" : "Address",
+                    "ordinalPosition" : 3,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "GuardianName",
+                    "id" : "GuardianName",
+                    "ordinalPosition" : 4,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "Email",
+                    "id" : "Email",
+                    "ordinalPosition" : 5,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.String",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "PhoneNo",
+                    "id" : "PhoneNo",
+                    "ordinalPosition" : 6,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Boolean",
+                    "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "active",
+                    "id" : "active",
+                    "ordinalPosition" : 7,
+                    "enabled" : true
+                  }
+                ],
+                "name" : "Student",
+                "id" : "Student",
+                "enabled" : true
+              },
+              {
+                "foreignKeys" : [
+                  {
+                    "expanded" : false,
+                    "foreignKeyColumns" : [
+                      {
+                        "foreignDatabaseName" : "Training",
+                        "foreignSchemaName" : "public",
+                        "expanded" : true,
+                        "name" : "StudentID",
+                        "foreignColumnName" : "StudentID",
+                        "id" : "StudentID",
+                        "foreignTableName" : "Student",
+                        "ordinalPosition" : 1
+                      }
+                    ],
+                    "name" : "FK_StudentID",
+                    "id" : "FK_StudentID"
+                  }
+                ],
+                "expanded" : true,
+                "primaryKeyColumns" : [
+                  {
+                    "expanded" : true,
+                    "name" : "MarksID",
+                    "id" : "MarksID",
+                    "ordinalPosition" : 1
+                  }
+                ],
+                "indexes" : [
+                  {
+                    "expanded" : false,
+                    "unique" : true,
+                    "name" : "StudentMarks_pkey",
+                    "indexColumns" : [
+                      {
+                        "orderType" : "ASC",
+                        "expanded" : true,
+                        "name" : "MarksID",
+                        "id" : "MarksID",
+                        "ordinalPosition" : 1
+                      }
+                    ],
+                    "id" : "StudentMarks_pkey"
+                  }
+                ],
+                "isView" : false,
+                "columns" : [
+                  {
+                    "databaseType" : "java.lang.Long",
+                    "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "MarksID",
+                    "id" : "MarksID",
+                    "ordinalPosition" : 1,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Long",
+                    "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "StudentID",
+                    "id" : "StudentID",
+                    "ordinalPosition" : 2,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Long",
+                    "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "Physics",
+                    "id" : "Physics",
+                    "ordinalPosition" : 3,
+                    "enabled" : true
+                  },
+                  {
+                    "databaseType" : "java.lang.Long",
+                    "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "Chemistry",
+                    "id" : "Chemistry",
+                    "ordinalPosition" : 4
+                  },
+                  {
+                    "databaseType" : "java.lang.Long",
+                    "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "Maths",
+                    "id" : "Maths",
+                    "ordinalPosition" : 5
+                  },
+                  {
+                    "databaseType" : "java.lang.Long",
+                    "typeMapper" : "com.speedment.runtime.typemapper.primitive.PrimitiveTypeMapper",
+                    "expanded" : true,
+                    "nullable" : false,
+                    "name" : "English",
+                    "id" : "English",
+                    "ordinalPosition" : 6
+                  }
+                ],
+                "name" : "StudentMarks",
+                "id" : "StudentMarks",
+                "enabled" : true
+              }
+            ],
+            "expanded" : true,
+            "name" : "public",
+            "id" : "public",
+            "enabled" : true
+          }
+        ],
+        "typeName" : "PostgreSQL",
+        "ipAddress" : "192.168.10.63",
+        "name" : "Training",
+        "id" : "Training",
+        "enabled" : true,
+        "username" : "postgres"
+      }
+    ],
+    "enabled" : true
+  }
+}
